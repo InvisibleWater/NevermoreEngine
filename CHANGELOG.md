@@ -1,3 +1,59 @@
+# (Wed Oct 18 2023)
+
+#### 🚀 Enhancement
+
+- `@quenty/colorpalette@5.1.0`, `@quenty/performanceutils@1.1.0`, `@quenty/rx@8.1.0`
+  - Users/quenty/updates [#425](https://github.com/Quenty/NevermoreEngine/pull/425) ([@Quenty](https://github.com/Quenty))
+
+#### Authors: 1
+
+- James Onnen ([@Quenty](https://github.com/Quenty))
+
+---
+
+# (Tue Oct 17 2023)
+
+#### 🚀 Enhancement
+
+- `@quenty/playerutils@3.1.0`
+  - fix: no yield so task spawn in for loop [#421](https://github.com/Quenty/NevermoreEngine/pull/421) ([@imagerymartin](https://github.com/imagerymartin))
+
+#### Authors: 1
+
+- Martin Cardenas ([@imagerymartin](https://github.com/imagerymartin))
+
+---
+
+# (Tue Oct 17 2023)
+
+:tada: This release contains work from a new contributor! :tada:
+
+Thank you, Matthew Miller ([@InvisibleWater](https://github.com/InvisibleWater)), for all your work!
+
+#### 🐛 Bug Fix
+
+- `@quenty/observablecollection@6.1.1`
+  - fix: Fix function implementations/names in ObservableList [#423](https://github.com/Quenty/NevermoreEngine/pull/423) ([@InvisibleWater](https://github.com/InvisibleWater))
+
+#### Authors: 1
+
+- Matthew Miller ([@InvisibleWater](https://github.com/InvisibleWater))
+
+---
+
+# (Sun Oct 15 2023)
+
+#### 💥 Breaking Change
+
+- `@quenty/elo@2.0.0`
+  - feat!: Refactor EloUtils to be easier to use and visualize elo utils [#424](https://github.com/Quenty/NevermoreEngine/pull/424) ([@Quenty](https://github.com/Quenty))
+
+#### Authors: 1
+
+- James Onnen ([@Quenty](https://github.com/Quenty))
+
+---
+
 # (Fri Oct 13 2023)
 
 #### 🐛 Bug Fix
