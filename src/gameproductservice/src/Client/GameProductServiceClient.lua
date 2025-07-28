@@ -77,15 +77,17 @@ end
 --[=[
 	Fires when the specified player purchases an asset
 
+	@param player Player
 	@param assetType GameConfigAssetType
 	@param idOrKey string | number
 	@return Observable<>
 ]=]
-function GameProductServiceClient:ObservePlayerAssetPurchased(assetType, idOrKey)
+function GameProductServiceClient:ObservePlayerAssetPurchased(player, assetType, idOrKey)
+	assert(typeof(player) == "Instance" and player:IsA("Player"), "Bad player")
 	assert(GameConfigAssetTypeUtils.isAssetType(assetType), "Bad assetType")
 	assert(type(idOrKey) == "number" or type(idOrKey) == "string", "Bad idOrKey")
 
-	return self._gameProductDataService:ObservePlayerAssetPurchased(assetType, idOrKey)
+	return self._gameProductDataService:ObservePlayerAssetPurchased(player, assetType, idOrKey)
 end
 
 --[=[
